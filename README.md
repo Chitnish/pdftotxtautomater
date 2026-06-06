@@ -26,8 +26,10 @@ How to run-
 1. edit extract_fields.py to add or remove fields
 2. drop pdfs in inbox folder
 3. open terminal and run the following command
+   ```
    python watcher.py (this is for running in auto mode, meaning it will extract the same fields you have set for all pdfs in inbox folder)
    python extract_fields.py path/to/thepdf.pdf (this is for running in manual mode, meaning it will extract the fields only for the pdf whose path you mentioned in the command)
+   ```
 
 example working-
 if i wanted to extract name and date from pdfs 1,2,3 then i would first put those fields in extract_fields.py then use auto mode 
