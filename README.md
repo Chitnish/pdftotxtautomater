@@ -1,4 +1,5 @@
 # pdftotxtautomater
+Project - Extracts certain specific fields from pdfs and returns txt files with those fields
 
 How to setup-
 1. Download https://ollama.com/download
