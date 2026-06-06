@@ -33,7 +33,9 @@ How to run-
 use auto mode when you want to extract the SAME fields from multiple pdfs. if you want different fields from different pdfs, then use manual mode.
 
 example working-
+
 if i wanted to extract name and date from pdfs 1,2,3 then i would first put those fields in extract_fields.py then use auto mode 
+
 if i wanted to extact name from pdf 1 but date from pdf 2 then i would first put name in extract_field.py, run in manual mode for pdf 1 then edit extract_field and replace name with date then run in manual mode for pdf 2
 
 
