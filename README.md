@@ -5,8 +5,10 @@ How to setup-
 1. Download https://ollama.com/download
 
 2. Open terminal and run the following commands(Only need to run these once to setup, after that everything is automated)
+   ```
    ollama pull llama3.2    (extracts the free ollama llm model which i have used)
    pip install pdfplumber watchdog ollama     (install dependencies)
+   ```
 
 3. Set up the following folder structure
 
