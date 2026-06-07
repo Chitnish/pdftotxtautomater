@@ -27,6 +27,7 @@ How to run-
 2. drop pdfs in inbox folder
 3. open terminal and run the following command
    ```
+   cd file/path/to/po_extractor
    python watcher.py (this is for running in auto mode, will run for all pdfs in inbox)
    python extract_fields.py path/to/thepdf.pdf (this is for running in manual mode, will run only for the pdf whose path is mentioned in the command)
    ```
